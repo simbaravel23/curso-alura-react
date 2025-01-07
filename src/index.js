@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
       monospace;
     }
        li {
-      list-style: none;
+      list-style: center;
     }
 `
 const root = ReactDOM.createRoot(document.getElementById('root'));
