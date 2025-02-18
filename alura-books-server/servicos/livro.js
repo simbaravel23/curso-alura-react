@@ -1,4 +1,4 @@
-function fs = require("fs")
+const fs = require("fs")
 
 function getTodosLivros(){
     return JSON.parse (fs.readFileSync("livros.json"))
@@ -12,6 +12,6 @@ function getLivrosPorId(id){
 
 }
 module.exports =  {
-    getTodosLivros
+    getTodosLivros,
     getLivrosPorId
 }

@@ -11,7 +11,7 @@ function getLivros(req, res) {
         }
 }
 
-unction getLivro(req, res) {
+function getLivro(req, res) {
     try {
         const id = req.params.id  
         const livro = getLivrosPorId(id)
@@ -22,6 +22,6 @@ unction getLivro(req, res) {
        }
 }
 module.exports = {
-    getLivros
+    getLivros,
     getLivro
 }
