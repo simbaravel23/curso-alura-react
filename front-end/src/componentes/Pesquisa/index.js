@@ -49,11 +49,11 @@ function Pesquisa() {
     const [ livros, setLivros] = useState ([])
 
     useEffect(() => {
-      
+      fechLivros()
     }, [])
 
     async function fechLivros() {
-         const livrosDaAPI = getLivros()
+         const livrosDaAPI = await getLivros()
          setLivros(livrosDaAPI)
     }  
     return (
