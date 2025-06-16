@@ -6,7 +6,7 @@ const app = express()
 app.use(express.json())
 app.use(cors({origin: "*"}))
 
-app.use('/livro', rotaLivro)
+app.use('/livros', rotaLivro)
 
 const port = 8000
 
