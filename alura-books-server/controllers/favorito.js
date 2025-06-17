@@ -44,5 +44,5 @@ function deleteFavorito(req, res) {
 module.exports = {
     getFavoritos,
     postFavorito,
-    deletaFavoritoPorId
+    deleteFavorito
 }
