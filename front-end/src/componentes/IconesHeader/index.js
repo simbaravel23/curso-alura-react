@@ -24,4 +24,4 @@ function IconesHeader() {
     )
 }
 
-export default IconesHeader
+export default IconesHeader;
